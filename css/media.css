@@ -1,0 +1,79 @@
+@media (max-width: 1200px) {
+	.money .money-img {
+		    background: url(../img/money.png) no-repeat center top;
+		    -webkit-background-size: 100%;
+		    background-size: 100%;
+	}
+	.money .money-img {
+		min-height: auto;
+		height: 60vh;
+	}
+	.banner {
+		height: 570px;
+	}
+	
+	.violence img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+	.banner {
+		height: 400px;
+	}
+	.money .money-img {
+	    height: 45vh;
+	}
+	
+	.money {
+		margin-bottom: 30px;
+	}
+	.bucks {
+		padding: 30px 0;
+	}
+	
+	#egf {
+		padding: 1.25em 1rem 2.5em;
+	}
+}
+
+@media (max-width: 520px) {
+	.banner {
+	    height: 280px;
+	}
+	.money .money-img {
+	    height: 30vh;
+	}
+	a.btn-yellow {
+		font-size: 0.625em;
+		padding: 15px 20px;
+	}
+	.battlepass-more-rewards p,
+	.money .money-descr .money_subtitle {
+		font-size: 2.5vw;
+	}
+	.violence {
+		margin-top: 20px;
+	}
+	.logos {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.banner {
+	    height: 230px;
+	}
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

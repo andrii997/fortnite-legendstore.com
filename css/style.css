@@ -1,0 +1,482 @@
+header {
+	width: 100%;
+	height: auto;
+	background: #2E2E2E;
+	z-index: 999;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .header-logo {
+	font-size: 0;
+	padding: 8px 0;
+}
+
+.header-logo {
+	margin-left: 15px;
+}
+
+.logo-img {
+	width: 30px;
+}
+
+.logo-text {
+	width: 100px;
+	margin-left: 30px;
+}
+
+.header-button {
+	background: #ff0;
+	font-size: .625em;
+	font-family: BurbankBigRegular-Black,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	padding: 20px 30px;
+}
+
+.header-button:hover {
+	background: #F2F43D;
+}
+
+
+.video-bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	max-height: 900px;
+	overflow-y: hidden;
+	z-index: -1;
+}
+.video-bg:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+}
+
+
+.video-bg video {
+	width: 100%;
+}
+
+.banner {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 900px;
+}
+
+.banner>.container {
+	text-align: center;
+}
+
+.banner .banner_title {
+	font-size: 8vw;
+    margin: 2vw auto 0;
+    line-height: 85%;
+    font-family: BurbankBigRegular-Black,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff0;
+}
+.banner .banner_title span:first-child {
+	margin-right: 30px;
+}
+
+.banner .banner_subtitle {
+	font-size: 2vw;
+	color: #fff;
+	letter-spacing: 3px;
+	font-family: BurbankBigRegular-Black,sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.banner .banner_subtitle span {
+	color: #ff0;
+}
+
+.money {
+	margin-bottom: 100px;
+}
+
+.money .money-img {
+	background: url('../img/money.png') no-repeat center center;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 70vh;
+	min-height: 850px;
+}
+
+.money .money-descr {
+
+}
+
+.money .money-descr .money_title {
+	margin: 0 auto;
+	color: #000;
+	font-size: 5vw;
+	line-height: 85%;
+	font-family: BurbankBigRegular-Black,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.money .money-descr .money_subtitle {
+	margin: 2vw auto 0;
+	font-size: 1.5vw;
+	width: 45vw;
+	font-family: BurbankBigRegular-Black,sans-serif;
+	line-height: 1.25;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+}
+
+.battlepass-more-rewards {
+    position: relative;
+    max-width: 1440px;
+    margin: 10% auto 0;
+    padding-bottom: 5%;
+}
+
+.battlepass-more-rewards .more-rewards-content {
+    text-align: center;
+    padding: 0 5vw;
+    color: #000;
+    margin-bottom: 5%;
+}
+
+.battlepass-more-rewards h1 {
+	font-size: 8vw;
+	max-width: 60vw;
+    line-height: 85%;
+    text-align: center;
+    font-family: BurbankBigRegular-Black,sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.battlepass-more-rewards p {
+    font-family: BurbankBigRegular-Black,sans-serif;
+    line-height: 1.25;
+    text-transform: uppercase;
+    max-width: 45vw;
+    font-size: 1.5vw;
+    margin: 10px auto 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.battlepass-image-cta {
+    position: relative;
+}
+
+.battlepass-image-cta .image-cta-background {
+    width: 100%;
+}
+
+.battlepass-image-cta .image-cta-content-wrapper .image-cta-content img {
+    width: 6vw;
+    margin-bottom: 3%;
+}
+
+.battlepass-image-cta .image-cta-content-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.battlepass-image-cta .image-cta-content-wrapper .image-cta-content a {
+    background-color: #e6e600;
+    border: none;
+    padding: 0 1.5em;
+    color: #000;
+    display: inline-block;
+}
+
+.battlepass-image-cta .image-cta-content-wrapper .image-cta-content a span {
+	font-size: 1.5vw;
+	margin-top: 3%;
+	font-family: BurbankBigRegular-Black,sans-serif;
+	padding-top: 3%;
+	line-height: 2;
+	letter-spacing: 0;
+	display: inline-block;
+}
+
+.battlepass-image-cta .image-cta-content-wrapper .image-cta-content a:hover {
+	cursor: pointer;
+    background-color: #e6e600;
+    transition: all .3s ease-in-out;
+}
+
+.fortnite-wrapper .btn.btn-hover-transform:hover {
+    -webkit-clip-path: polygon(4% 0,100% 0,98% 100%,2% 100%);
+    clip-path: polygon(4% 0,100% 0,98% 100%,2% 100%);
+}
+
+.battlepass-image-cta .image-cta-content-wrapper .image-cta-content h1 {
+    width: 17vw;
+    font-size: 5.5vw;
+    line-height: 85%;
+    font-family: BurbankBigRegular-Black,sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.egf .up-button {
+    cursor: pointer;
+    float: right;
+    width: 2.1em;
+    height: 2.1em;
+    border: 2px solid #fff;
+    padding: .25em;
+    border-radius: 2px;
+    margin: 1.25em 1em 0 0;
+    -webkit-transition: border .3s ease-in-out;
+    -o-transition: border .3s ease-in-out;
+    transition: border .3s ease-in-out;
+    background-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.egh-theme.fortnite .text-color-nonactive-border {
+    border-color: #ccc!important;
+    text-decoration: none;
+}
+
+.egh-theme.fortnite .text-color-nonactive-border:hover {
+	border-color: #e6e600!important;
+}
+
+[class*=" eg-footer-icon-"], [class^=eg-footer-icon-] {
+    font-family: eg-footer-icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga",normal,"dlig",normal,"dlig";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.egf .up-button span {
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 1.5em;
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.egh-theme.fortnite .text-color-nonactive {
+    color: #ccc;
+}
+.egh-theme.fortnite .text-color-nonactive > img {
+    width: 100%;
+}
+
+.fortnite-wrapper, .fortnite-wrapper>div {
+    position: relative;
+}
+
+.egf {
+    background: #2a2a2a;
+    border-top: 1px solid #ccc;
+}
+
+.egh-theme.fortnite .bg-color, .egh-theme.fortnite nav, .egh-theme.fortnite ul {
+    background-color: #2a2a2a;
+}
+
+.egh-theme.fortnite ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.egh-theme.fortnite ul li:last-child {
+	margin-right: 0;
+}
+
+.egh-theme.fortnite .mobile-border-color {
+    border-color: #323232!important;
+}
+
+#egf {
+    font-size: 16px;
+    font-family: OpenSans,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    position: relative;
+    padding: 1.25em 4.5em 2.5em;
+    z-index: 10;
+}
+
+.fortnite-wrapper #egf {
+    z-index: 0;
+}
+
+#egf hr {
+	margin: 1em 0;
+	border-color: #333!important;
+	border-top: 1px solid #b3b3b3;
+	border-style: solid none none;
+	box-sizing: content-box;
+	height: 0;
+}
+
+.egf .copyright {
+    padding: 1em;
+    margin-top: 0;
+    border-top: #dfdfdf;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+#egf .row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.egf .copyright .copyright-paragraph {
+    margin: 0;
+    padding-top: .5em;
+    font-size: .71em;
+    color: #fff;
+    font-family: OpenSans,sans-serif;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.egh-theme.fortnite .text-color-nonactive {
+    color: #ccc;
+}
+
+
+.egf .legal {
+    padding: 1em 0 0 1em;
+}
+
+.egf .legal .links {
+    float: none;
+    width: auto;
+    padding: 0;
+    font-family: OpenSans,sans-serif;
+}
+
+.egf .legal .links li {
+    padding: 0 1em 0 0;
+    display: inline;
+}
+
+.egf .legal .links li a {
+    font-size: .75em;
+    -webkit-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #e7e7e7;
+    text-decoration: none;
+    font-family: OpenSans,sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+a.btn-yellow {
+	color: #000;
+	background: #ff0;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 30px;
+    display: inline-block;
+    font-family: BurbankBigRegular-Black,sans-serif;
+    margin: 50px auto 0;
+}
+
+.bucks {
+    background: #47E8DD;
+    padding: 70px 0;
+}
+
+.bucks .item {
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+
+.bucks .item .container-img {
+    width: 100%;
+}
+
+.bucks .item a {
+    margin-top: 1rem;
+}
+
+.logos {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1em;
+}
+
+.violence {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+}
